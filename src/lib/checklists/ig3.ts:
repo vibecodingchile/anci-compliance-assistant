@@ -1,0 +1,26 @@
+export const IG3_CHECKLIST = [
+  {
+    key: "OFFICIAL_PORTAL",
+    title: "Remitir por plataforma oficial (portal ANCI)",
+    description: "El documento formal debe remitirse a través del portal.",
+    required: true,
+  },
+  {
+    key: "INSTITUTIONAL_EMAILS",
+    title: "Correos institucionales (delegado y subrogante)",
+    description: "El documento debe incluir correos institucionales como medio oficial.",
+    required: true,
+  },
+  {
+    key: "CHANGE_WITHIN_5_BUSINESS_DAYS",
+    title: "Gestión de cambios (5 días hábiles)",
+    description: "Registrar cambio de delegado y actualización dentro del plazo.",
+    required: true,
+  },
+  {
+    key: "DEADLINE_FEB_15_2026_ACK",
+    title: "Reconocer hito 15 de febrero 2026",
+    description: "Hito/plazo relevante para designación del delegado.",
+    required: true,
+  },
+] as const;
